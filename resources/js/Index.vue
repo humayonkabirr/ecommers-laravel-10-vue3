@@ -185,7 +185,7 @@
           data-carousel-item="active"
         >
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+            src="https://nkrmart.com/public/storage/images/slider/XLBVNKFCwyr709clkQ9JftbSca2PEWY68KNJJMDj.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -193,7 +193,7 @@
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+            src="https://nkrmart.com/public/storage/images/slider/XLBVNKFCwyr709clkQ9JftbSca2PEWY68KNJJMDj.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -201,7 +201,7 @@
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+            src="hhttps://nkrmart.com/public/storage/images/slider/XLBVNKFCwyr709clkQ9JftbSca2PEWY68KNJJMDj.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -209,7 +209,7 @@
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+            src="https://nkrmart.com/public/storage/images/slider/XLBVNKFCwyr709clkQ9JftbSca2PEWY68KNJJMDj.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -217,7 +217,7 @@
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+            src="https://nkrmart.com/public/storage/images/slider/XLBVNKFCwyr709clkQ9JftbSca2PEWY68KNJJMDj.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -319,20 +319,372 @@
     </div>
   </div>
 
-  <div class="w-full flex justify-center my-4 mt-6">
+  <div class="w-full flex justify-center mt-6 mb-0">
     <h1 class="text-3xl font-extrabold uppercase">Shop By Categories</h1>
   </div>
+
+
+  <div class="w-full flex justify-center">
+    <div class="relative flex overflow-x-hidden">
+    <div class="py-12 animate-marquee whitespace-nowrap">
+      <div class="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4">
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+      <div class="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4">
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+            
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
 
   <div class="my-2 max-w-screen-xl mx-auto flex justify-center my-4 mt-6">
     <div class="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4">
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -344,67 +696,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -420,12 +712,12 @@
       </div>
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -437,67 +729,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -513,12 +745,12 @@
       </div>
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -530,67 +762,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -606,12 +778,12 @@
       </div>
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -623,67 +795,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -699,12 +811,12 @@
       </div>
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -716,67 +828,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -792,12 +844,12 @@
       </div>
       <div>
         <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="https://flowbite.com/docs/images/products/apple-watch.png"
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
               alt="product image"
             />
           </a>
@@ -809,67 +861,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-yellow-300 mr-1"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <svg
-                class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 22 20"
-              >
-                <path
-                  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                />
-              </svg>
-              <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
-                >5.0</span
-              >
-            </div>
+            
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
