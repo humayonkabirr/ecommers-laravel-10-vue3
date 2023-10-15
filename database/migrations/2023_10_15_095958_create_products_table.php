@@ -13,7 +13,18 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->integer('category_id')->unsigned();
+            $table->integer('brand_id')->unsigned();
+            $table->string('title');
+            $table->text('description');
+            $table->string('slug');
+            $table->integer('quantity')->default(1);
+            $table->integer('price');
+            $table->integer('offer_price')->nullable(0);
+            $table->unsignedBigInteger('admin_id');
+            $table->boolean('status')->default(0)->comment("0=>Inactive, 1=>Active");
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
