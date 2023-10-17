@@ -21,6 +21,10 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('/admin/category', function () {
+    return view('admin.category.form');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

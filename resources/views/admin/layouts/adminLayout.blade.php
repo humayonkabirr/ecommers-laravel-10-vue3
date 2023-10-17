@@ -79,5 +79,8 @@
     <script src="{{ asset('assets/js/dashboard/dash_1.js') }}"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
+
+    @stack('js')
+
 </body>
 </html>
