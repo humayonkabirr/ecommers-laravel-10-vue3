@@ -3,21 +3,12 @@
 
 <template>
   <header>
-    <nav class="dark:bg-white border-gray-200 bg-gray-900">
-      <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-      >
+    <nav class="dark:bg-white border-gray-200 bg-red-700">
+      <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo"/>
 
-          <span
-            class="self-center text-2xl font-semibold whitespace-nowrap text-white"
-            >Flowbite</span
-          >
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Flowbite</span>
         </a>
 
         <div class="flex md:order-2">
@@ -171,7 +162,7 @@
     </nav>
   </header>
 
-  <div class="my-2 max-w-screen-xl mx-auto">
+  <div class="my-2 max-w-screen-2xl mx-auto">
     <div
       id="indicators-carousel"
       class="relative w-full"
@@ -324,7 +315,7 @@
   </div>
 
 
-  <div class="w-full flex justify-center">
+  <div class="w-full max-w-screen-2xl mx-auto flex justify-center">
     <div class="relative flex overflow-x-hidden">
     <div class="py-12 animate-marquee whitespace-nowrap">
       <div class="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4">
@@ -347,7 +338,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -380,7 +371,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -394,8 +385,8 @@
           </div>
         </div>
       </div>
-      
-      
+
+
       <div>
         <div
           class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
@@ -415,40 +406,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
-            <div class="flex items-center justify-between">
-              <span class="font-bold text-gray-900 dark:text-white"
-                >$599</span
-              >
-              <a
-                href="#"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >Add to cart</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div
-          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
-        >
-          <a href="#">
-            <img
-              class="p-2 rounded-t-lg"
-              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
-              alt="product image"
-            />
-          </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS
-              </h5>
-            </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -481,7 +439,40 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-gray-900 dark:text-white"
+                >$599</span
+              >
+              <a
+                href="#"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="p-2 rounded-t-lg"
+              src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
+              alt="product image"
+            />
+          </a>
+          <div class="px-5 pb-5">
+            <a href="#">
+              <h5
+                class="font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Apple Watch Series 7 GPS
+              </h5>
+            </a>
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -519,7 +510,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -552,7 +543,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -585,7 +576,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -618,7 +609,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -651,7 +642,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -665,7 +656,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
     </div>
   </div>
@@ -675,7 +666,7 @@
 
 
 
-  <div class="my-2 max-w-screen-xl mx-auto flex justify-center my-4 mt-6">
+  <div class=" max-w-screen-2xl mx-auto flex justify-center my-4 mt-6">
     <div class="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4">
       <div>
         <div
@@ -696,7 +687,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -729,7 +720,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -762,7 +753,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -795,7 +786,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -828,7 +819,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -861,7 +852,7 @@
                 Apple Watch Series 7 GPS
               </h5>
             </a>
-            
+
             <div class="flex items-center justify-between">
               <span class="font-bold text-gray-900 dark:text-white"
                 >$599</span
@@ -880,9 +871,9 @@
 
 
 
-  
-<footer class="bg-white dark:bg-gray-900 mt-10">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+
+<footer class="bg-red-700  dark:bg-gray-900 mt-10">
+    <div class="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
@@ -893,7 +884,7 @@
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul class="text-gray-200 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
                       </li>
@@ -904,7 +895,7 @@
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul class="text-gray-200 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
                       </li>
@@ -915,7 +906,7 @@
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul class="text-gray-200 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
                       </li>
@@ -928,7 +919,7 @@
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+          <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
