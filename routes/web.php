@@ -21,5 +21,16 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('/admin/category', function () {
+    return view('admin.category.form');
+});
 
-Route::get('category', 'Cate')
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

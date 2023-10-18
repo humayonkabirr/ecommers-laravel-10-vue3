@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>CORK Admin - Multipurpose Bootstrap Dashboard Template </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <title>Admin</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}"/>
     <link href="{{ asset('assets/css/loader.css') }}" rel="stylesheet" type="text/css" />
     <script src="{{ asset('assets/js/loader.js') }}"></script>
 
@@ -78,6 +78,9 @@
     <script src="{{ asset('plugins/apex/apexcharts.min.js') }}"></script>
     <script src="{{ asset('assets/js/dashboard/dash_1.js') }}"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+
+
+    @stack('js')
 
 </body>
 </html>
