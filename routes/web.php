@@ -30,6 +30,7 @@ Route::get('/admin', function () {
 // Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
 Route::group(['prefix' => 'admin'], function(){
     Route::get('category', [CategoryController::class, 'index'])->name('admin.category');
+    Route::post('category', [CategoryController::class, 'store'])->name('admin.category.store');
     Route::get('sub-category', [CategoryController::class, 'getSubCategory'])->name('admin.sub-category');
 
     Route::get('products', [ProductController::class, 'create'])->name('admin.products');

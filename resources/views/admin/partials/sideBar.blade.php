@@ -9,7 +9,7 @@
                 </a>
             </li>
             <li class="nav-item theme-text">
-                <a href="index.html" class="nav-link"> CORK </a>
+                <a href="index.html" class="nav-link"> Demo </a>
             </li>
         </ul>
 
@@ -52,10 +52,10 @@
                     data-parent="#accordionExample">
                     <li class="active">
                         <a href="{{ route('admin.category') }}"> Category </a>
-                    </li>
+                    </li> 
                     <li class="">
                         <a href="{{ route('admin.sub-category') }}"> Sub-Category </a>
-                    </li>
+                    </li> 
                 </ul>
             </li>
 
@@ -81,7 +81,7 @@
                 <ul class="collapse submenu recent-submenu mini-recent-submenu list-unstyled show" id="productsManage"
                     data-parent="#accordionExample">
                     <li class="active">
-                        <a href="{{ route('admin.products') }}"> Add Product </a>
+                        <a href="#"> Add Product </a>
                     </li>
                     <li>
                         <a href="#"> All Products </a>

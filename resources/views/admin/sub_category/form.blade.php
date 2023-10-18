@@ -7,16 +7,26 @@
     <div class="widget-header">
       <div class="row">
         <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-          <h4>Create New Category</h4>
+          <h4>Create New Sub-Category</h4>
         </div>
       </div>
     </div>
     <div class="widget-content widget-content-area">
       <form class="needs-validation" novalidate action="{{ route('admin.category.store') }}" method="POST">
         @csrf
+        <div class="col-md-12 form-group p-0 mb-4">
+          <label for="category">Category Name</label>
+          <select name="category_id" class="form-control sm" id="category" required>
+            <option selected disabled>Select Category</option>
+            @foreach ($categories as $category)
+            <option value="{{ $category->id }}">{{ $category->name }}</option>
+            @endforeach 
+          </select>
+        </div>
+
         <div class="form-row">
           <div class="col-md-12 mb-4">
-            <label for="name">Category Name</label>
+            <label for="name">Sub-Category Name</label>
             <input type="text" name="name" class="form-control" id="name" placeholder="Category Name" required>
             <div class="invalid-feedback">
               Required
@@ -31,7 +41,7 @@
           </div>
           </div>
 
-          <div class="col-md-12 mb-4">
+          <div class="col-md-6 mb-4">
             <label for="validationCustom04">Possion</label>
             <input type="number" name="possion" class="form-control" id="validationCustom04" placeholder="1" required>
             <div class="invalid-feedback">
@@ -39,7 +49,7 @@
             </div>
           </div>
 
-          <div class="col-md-12 form-group mb-4">
+          <div class="col-md-6 form-group mb-4">
             <label for="status">Status</label>
             <select name="status" class="form-control" id="status">
               <option value="1">Active</option>

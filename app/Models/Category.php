@@ -13,6 +13,6 @@ class Category extends Model
     protected $dates = ['deleted_at'];
 
     protected $fillable = [
-        'title', 'body', 'status'
+        'parent_id', 'name', 'description', 'image', 'status'
     ];
 }

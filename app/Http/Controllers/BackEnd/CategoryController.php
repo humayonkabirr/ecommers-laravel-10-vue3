@@ -23,7 +23,8 @@ class CategoryController extends Controller
     public function getSubCategory()
     {
         //
-        return view('admin.category.form');
+        $data['categories'] = Category::where('status', 1)->get(['id', 'name']);
+        return view('admin.sub_category.form', $data);
     }
 
     /**
@@ -40,6 +41,8 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         //
+        Category::create($request->all());
+        return back();
     }
 
     /**
