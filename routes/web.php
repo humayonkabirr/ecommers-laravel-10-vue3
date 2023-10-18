@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BackEnd\CategoryController;
+use App\Http\Controllers\BackEnd\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,9 +22,17 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('admin.index');
 });
+ 
 
-Route::get('/admin/category', function () {
-    return view('admin.category.form');
+
+
+
+// Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
+Route::group(['prefix' => 'admin'], function(){
+    Route::get('category', [CategoryController::class, 'index'])->name('admin.category');
+    Route::get('sub-category', [CategoryController::class, 'getSubCategory'])->name('admin.sub-category');
+
+    Route::get('products', [ProductController::class, 'create'])->name('admin.products');
 });
 
 Route::middleware([

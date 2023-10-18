@@ -51,11 +51,11 @@
                 <ul class="collapse submenu recent-submenu mini-recent-submenu list-unstyled show" id="categoriesManage"
                     data-parent="#accordionExample">
                     <li class="active">
-                        <a href="#"> Category </a>
-                    </li> 
+                        <a href="{{ route('admin.category') }}"> Category </a>
+                    </li>
                     <li class="">
-                        <a href="#"> Sub-Category </a>
-                    </li> 
+                        <a href="{{ route('admin.sub-category') }}"> Sub-Category </a>
+                    </li>
                 </ul>
             </li>
 
@@ -81,7 +81,7 @@
                 <ul class="collapse submenu recent-submenu mini-recent-submenu list-unstyled show" id="productsManage"
                     data-parent="#accordionExample">
                     <li class="active">
-                        <a href="#"> Add Product </a>
+                        <a href="{{ route('admin.products') }}"> Add Product </a>
                     </li>
                     <li>
                         <a href="#"> All Products </a>
