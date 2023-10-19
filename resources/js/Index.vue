@@ -172,7 +172,7 @@
     <div class="w-full max-w-screen-2xl mx-auto flex justify-center">
         <div class="relative flex overflow-x-hidden">
             <div class="py-12 animate-marquee whitespace-nowrap">
-                <div class="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-5 gap-4">
+                <div class="grid  grid-cols-5 lg:grid-cols-6 gap-4">
                     <div>
                         <div
                             class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl">
@@ -299,7 +299,7 @@
             </div>
 
             <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <div class="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-5 gap-4">
+                <div class="grid  grid-cols-5 lg:grid-cols-6 gap-4">
                     <div>
                         <div
                             class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl">
@@ -430,34 +430,36 @@
 
 
 
-    <div class=" max-w-screen-2xl mx-auto flex justify-center my-4 mt-6">
-        <div class="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-5 gap-4">
+    <div class=" max-w-screen-2xl container mx-auto flex justify-center my-4 mt-6">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 px-2">
 
-                <div v-if="itam in 16" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl">
+                <div v-for="index in 30" :key="index">
+                    <div class="w-full max-w-sm bg-orange-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl">
                     <a href="#">
                         <img class="p-2 rounded-t-lg"
                             src="https://nkrmart.com/public/storage/images/product_thumbnail_img/169529915412.%20Sky%20+%20Pest.jpg"
                             alt="product image" />
                     </a>
-                    <div class="px-5 pb-5 w-full">
+                    <div class="px-2 pb-2 w-full">
                         <a href="#">
-                            <h5 class="font-semibold tracking-tight text-gray-900 dark:text-white truncate">
+                            <h5 class="font-semibold tracking-tight text-sm text-gray-900 dark:text-white truncate">
                                 Apple Watch Series 7 GPS
                             </h5>
                         </a>
 
                         <div class="flex items-center justify-between mb-2">
-                            <span class="font-bold text-gray-900 dark:text-white">$599</span>
+                            <span class="text-xs text-gray-900 dark:text-white">$599</span>
                             <small class="font-bold text-red-600 dark:text-white line-through">$599</small>
                         </div>
 
                         <div class="flex w-full items-center justify-between">
-                            <a href="#" class="text-white w-full bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <a href="#" class="text-slate-900 w-full bg-orange-200 hover:bg-orange-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-md text-sm px-5 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Add to cart
                             </a>
                         </div>
 
                     </div>
+                </div>
                 </div>
 
         </div>
