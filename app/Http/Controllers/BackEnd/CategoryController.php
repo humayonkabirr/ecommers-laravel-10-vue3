@@ -14,7 +14,8 @@ class CategoryController extends Controller
     public function index()
     {
         //
-        return view('admin.category.form');
+        $data['categories'] = Category::where('parent_id', null)->get(['id', 'name', 'status']);
+        return view('admin.category.form', $data);
     }
 
     /**
@@ -24,6 +25,7 @@ class CategoryController extends Controller
     {
         //
         $data['categories'] = Category::where('status', 1)->get(['id', 'name']);
+        $data['sub_categories'] = Category::where('parent_id', '!=', null)->get(['id', 'name', 'status']);
         return view('admin.sub_category.form', $data);
     }
 

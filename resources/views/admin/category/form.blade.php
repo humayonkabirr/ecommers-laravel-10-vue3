@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="widget-content widget-content-area">
-      <form class="needs-validation" novalidate action="{{ route('admin.category.store') }}" method="POST">
+      <form class="needs-validation" novalidate action="{{ route('admin.category.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-row">
           <div class="col-md-12 mb-4">
@@ -22,7 +22,7 @@
               Required
             </div>
           </div>
-          
+
           <div class="col-md-12 mb-4">
             <label for="customFile">Category Image</label>
             <div class="custom-file mb-4">
@@ -72,80 +72,31 @@
           <thead>
             <tr>
               <th style="width: 0px" class="text-center">Image</th>
-              <th class="text-center">Name</th> 
+              <th class="text-center">Name</th>
               <th style="width: 0px" class="text-center">Status</th>
               <th style="width: 0px" class="text-center">Action</th>
             </tr>
           </thead>
           <tbody>
+
+            @foreach ($categories as $category)
             <tr>
-              <td class="text-center">
-                <a class="profile-img" href="javascript: void(0);">
-                  <img width="40" height="30" src="{{ asset('assets/img/90x90.jpg') }}" alt="product">
-              </a>
-              </td>
-              <td class="text-center">Shaun Park</td>
-               
-              <td class="text-center"><span class="text-success">Inactive</span></td>
-              <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 icon">
-                  <polyline points="3 6 5 6 21 6"></polyline>
-                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg></td>
-            </tr>
-             
-            <tr>
-              <td class="text-center">
-                <a class="profile-img" href="javascript: void(0);">
-                  <img width="40" height="30" src="{{ asset('assets/img/90x90.jpg') }}" alt="product">
-              </a>
-              </td>
-              <td class="text-center">Shaun Park</td>
-              
-              <td class="text-center"><span class="text-success">Inactive</span></td>
-              <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 icon">
-                  <polyline points="3 6 5 6 21 6"></polyline>
-                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg></td>
-            </tr>
-             
-            <tr>
-              <td class="text-center">
-                <a class="profile-img" href="javascript: void(0);">
-                  <img width="40" height="30" src="{{ asset('assets/img/90x90.jpg') }}" alt="product">
-              </a>
-              </td>
-              <td class="text-center">Shaun Park</td>
-               
-              <td class="text-center"><span class="text-success">Inactive</span></td>
-              <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 icon">
-                  <polyline points="3 6 5 6 21 6"></polyline>
-                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg></td>
-            </tr>
-             
-            <tr>
-              <td class="text-center">
-                <a class="profile-img" href="javascript: void(0);">
-                  <img width="40" height="30" src="{{ asset('assets/img/90x90.jpg') }}" alt="product">
-              </a>
-              </td>
-              <td class="text-center">Shaun Park</td>
-               
-              <td class="text-center"><span class="text-success">Inactive</span></td>
-              <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 icon">
-                  <polyline points="3 6 5 6 21 6"></polyline>
-                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg></td>
-            </tr>
-             
+                <td class="text-center">
+                  <a class="profile-img" href="javascript: void(0);">
+                    <img width="40" height="30" src="{{ asset('assets/img/90x90.jpg') }}" alt="product">
+                </a>
+                </td>
+                <td class="text-center">{{ $category-> name}}</td>
+
+                <td class="text-center"><span class="text-success"> {{ $category->status == 0? 'Active':'Inactive'}} </span></td>
+                <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 icon">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    <line x1="10" y1="11" x2="10" y2="17"></line>
+                    <line x1="14" y1="11" x2="14" y2="17"></line>
+                  </svg></td>
+              </tr>
+            @endforeach
           </tbody>
         </table>
       </div>

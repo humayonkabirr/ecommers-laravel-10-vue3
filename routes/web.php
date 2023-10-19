@@ -22,7 +22,7 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('admin.index');
 });
- 
+
 
 
 
@@ -33,7 +33,9 @@ Route::group(['prefix' => 'admin'], function(){
     Route::post('category', [CategoryController::class, 'store'])->name('admin.category.store');
     Route::get('sub-category', [CategoryController::class, 'getSubCategory'])->name('admin.sub-category');
 
-    Route::get('products', [ProductController::class, 'create'])->name('admin.products');
+    Route::get('products', [ProductController::class, 'index'])->name('admin.products');
+    Route::get('product/create', [ProductController::class, 'create'])->name('admin.products.create');
+    Route::post('product/create', [ProductController::class, 'store'])->name('admin.products.store');
 });
 
 Route::middleware([

@@ -32,11 +32,12 @@
                 </div>
             </div>
             <div class="widget-content widget-content-area">
-                <form class="needs-validation" novalidate action="javascript:void(0);">
+                <form class="needs-validation" novalidate action="{{ route('admin.products.store') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-row">
                         <div class="col-md-12 mb-4">
                             <label for="validationCustom03">Product Name</label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Product Name"
+                            <input type="text" name="title" class="form-control" id="validationCustom03" placeholder="Product Name"
                                 required>
                             <div class="invalid-feedback">
                                 Required
@@ -72,38 +73,71 @@
                         <div class="col-md-6">
                             <label for="productDiscription">Product Discrption</label>
                             <div class="widget-content widget-content-area p-0">
-                                <textarea id="demo1">  </textarea>
+                                <textarea id="demo1" name="description">  </textarea>
                             </div>
                         </div>
 
 
                         <div class="col-md-6 form-group">
                             <label for="Category">Category</label>
-                            <select class="placeholder js-states form-control">
+                            <select name="category_id" class="placeholder js-states form-control">
                                 <option>Choose category...</option>
-                                <option value="one">First</option>
-                                <option value="two">Second</option>
-                                <option value="three">Third</option>
-                                <option value="four">Fourth</option>
-                                <option value="five">Fifth</option>
+                                @foreach ($categories as $item)
+                                    <option value="{{ $item->id }}">{{ $item->name }}</option>
+                                @endforeach
                             </select>
                         </div>
 
-                        <div class="col-md-6 form-group">
+                        {{-- <div class="col-md-6 form-group">
                             <label for="Category">Sub-Category</label>
                             <select class="placeholder js-states form-control">
                                 <option>Choose sub-category...</option>
-                                <option value="one">First</option>
-                                <option value="two">Second</option>
-                                <option value="three">Third</option>
-                                <option value="four">Fourth</option>
-                                <option value="five">Fifth</option>
+                                @foreach ($sub_category as $item)
+                                    <option value="{{ $item->id }}">{{ $item->name }}</option>
+                                @endforeach
                             </select>
+                        </div> --}}
+                        <div class="col-md-6 form-group">
+                            <label for="brand">Brand Name</label>
+                            <select id="brand" name="brand_id" class="placeholder js-states form-control" required>
+                                <option>Choose Brand Name...</option>
+                                <option value="1">Non-Brand</option>
+
+                            </select>
+                        </div>
+
+
+                        <div class="col-md-4 mb-4">
+                            <label for="price">Price</label>
+                            <input type="number" name="price" class="form-control" id="price" placeholder="Product Name"
+                                required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 mb-4">
+                            <label for="offer_price">Offer Price</label>
+                            <input type="number" name="offer_price" class="form-control" id="offer_price" placeholder="Product Name"
+                                required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Product Name"
+                                required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
                         </div>
 
                         <div class="col-md-6 mb-4">
                             <label for="validationCustom04">Possion</label>
-                            <input type="number" class="form-control" id="validationCustom04" placeholder="1" required>
+                            <input type="number"  class="form-control" id="validationCustom04" placeholder="1" required>
                             <div class="invalid-feedback">
                                 Required
                             </div>

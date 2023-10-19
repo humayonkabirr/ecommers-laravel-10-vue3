@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use App\Models\Product;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -22,7 +24,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('admin.product.form');
+        $data['categories'] = Category::where('status', 1)->get(['id', 'name']);
+        return view('admin.product.form', $data);
     }
 
     /**
@@ -31,6 +34,12 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         //
+        $product                = $request->all();
+        $product['slug']        = Str::slug($request->title, '-');
+        $product['admin_id']    = 1;
+
+        Product::create($product);
+        return back();
     }
 
     /**
