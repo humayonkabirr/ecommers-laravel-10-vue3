@@ -1,10 +1,10 @@
 <script setup>
 
-import ServiceCall from "services/products/product";
+import ServiceCall from "../js/services/products/product";
 
 const { storeDate, getData, resData, status, errors } = ServiceCall();
 
-getData('pages');
+getData('store-validation-check');
 
 </script>
 

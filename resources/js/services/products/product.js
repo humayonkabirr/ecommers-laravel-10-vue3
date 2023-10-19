@@ -1,13 +1,13 @@
 import axios from "axios";
 import { computed, reactive, ref } from "vue";
-import { useRouter } from "vue-router";
+// import { useRouter } from "vue-router";
 
 // import trumpetSfx from "@/assets/sounds/product_add.mp3";
 import trumpetSfx from "@/assets/sounds/1secondton_87a501f05076308.mp3";
 
 export default function ServiceCall() {
   // Access the router instance
-  const router = useRouter();
+//   const router = useRouter();
 
   const errors = ref({});
   const status = ref("Create Page");
@@ -16,7 +16,7 @@ export default function ServiceCall() {
   const storeDate = async (url, data) => {
     try {
       // await axios.get("/sanctum/csrf-cookie");
-      let response = await axios.post("/api/admin/v1/"+url, data,
+      let response = await axios.post("/v1/"+url, data,
         {
           headers: {
             "Content-Type": "multipart/form-data",
@@ -41,7 +41,7 @@ export default function ServiceCall() {
         // console.log(response.data);
         var audio = new Audio(trumpetSfx);
         audio.play();
-        await router.push("/error");
+        // await router.push("/error");
       } else {
         Swal.fire({
           position: "center",
@@ -57,19 +57,19 @@ export default function ServiceCall() {
       }
     } catch (e) {
       console.log(e);
-      await router.push("/error");
+    //   await router.push("/error");
     }
   };
 
   const getData = async (url) => {
     resData.value = [];
     try {
-      let response = await axios.get("/api/admin/v1/"+url);
-      resData.value = response.data.yourData;
-      console.log(response.data.yourData);
+      let response = await axios.get("/v1/"+url);
+      resData.value = response;
+      console.log(response);
     } catch (e) {
       console.log(e);
-      await router.push("/error");
+    //   await router.push("/error");
     }
   };
 
