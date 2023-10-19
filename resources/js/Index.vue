@@ -1,4 +1,11 @@
 <script setup>
+
+import ServiceCall from "services/products/product";
+
+const { storeDate, getData, resData, status, errors } = ServiceCall();
+
+getData('pages');
+
 </script>
 
 <template>
@@ -165,7 +172,7 @@
     </div>
 
     <div class="w-full flex justify-center mt-6 mb-0">
-        <h1 class="text-3xl font-extrabold uppercase">Shop By Categories</h1>
+        <h1 class="text-3xl font-extrabold uppercase">Shop By Categories {{  resData  }}</h1>
     </div>
 
 
